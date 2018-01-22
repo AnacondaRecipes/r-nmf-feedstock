@@ -10,8 +10,8 @@ package:
 source:
   fn: NMF_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/NMF_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/NMF/NMF_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/NMF_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/NMF/NMF_{{ version }}.tar.gz
   sha256: dfccd4b4d6ec90cd7628fd128d2456d792f406cee4d32b13448dcb0ffe4ab056
 
 
