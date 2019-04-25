@@ -89,6 +89,7 @@ about:
     algorithms have been optimized in C++, and the main interface function provides
     an easy way of performing parallel computations on multicore machines.
   license_family: GPL3
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
 
 extra:
   recipe-maintainers:
